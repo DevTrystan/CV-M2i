@@ -1,0 +1,119 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    
+    background-color: cadetblue;
+    margin: 0;
+    padding: 20px;
+}
+
+header , nav{
+    
+    align-items: flex-end;
+    
+    
+}
+
+
+
+ a{
+    color: darkcyan;
+    background-color: rgb(223, 210, 210);
+    border: black 1px solid;
+
+
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 6px;
+    
+}
+
+a.active, nav a:hover{
+    border-bottom: 5px white solid;
+}
+
+h1{
+    font-size: 2rem;
+    color: rgb(223, 210, 210);
+}
+
+#idFirst
+{
+    font-size: 2rem;
+    color: rgb(223, 210, 210);
+}
+
+#titlePresentation{
+    margin: 30px;
+}
+
+#presentation p 
+{
+    font-size: 1.2rem;
+    text-align: justify;
+    margin-left: 30px;
+}
+#bloc{
+    display: flex;
+    justify-content: space-between;
+    
+}
+#marginRight{
+    margin-right: 30px;
+}
+
+#marginRight img{
+    border-radius: 5% ;
+    border: 5px darkcyan solid;
+
+    width: 400px;
+    margin-top: 20px;
+}
+#colonne
+{
+    display: flex;
+    
+    
+}
+.element{
+    margin: 80px;
+}
+
+  aside {
+    border: 5px rgb(5, 2, 2) solid;
+    border-radius: 4%;
+    position: static;
+    
+
+    background: rgb(175, 173, 173);
+    width: 300px ;
+    padding: 10px;
+}
+
+h3{
+    text-align: center;
+}
+
+.titleIndex{
+    background-color: darkcyan;
+    border: 2px rgb(223, 210, 210) solid;
+    padding: 5px;
+    color: white;
+}
+
+.secondPage{
+    font-size: 8rem;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
+
+
